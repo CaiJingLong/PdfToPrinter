@@ -6,7 +6,7 @@ plugins {
 }
 
 //group = "top.kikt"
-group = "com.github"
+group = "com.github.CaiJingLong"
 //version = "1.0.1-SNAPSHOT"
 version = "1.0.2"
 
