@@ -5,10 +5,8 @@ plugins {
     `maven-publish`
 }
 
-//group = "top.kikt"
-group = "com.github.CaiJingLong"
-//version = "1.0.1-SNAPSHOT"
-version = "1.0.2"
+group = "top.kikt"
+version = "1.0.0"
 
 repositories {
     mavenCentral()
