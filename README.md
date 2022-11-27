@@ -1,22 +1,16 @@
 # convert pdf to pwg or pclm
 
-The repo is Kotlin/jvm code
+The repo is Kotlin/jvm code.
 
 The code is come from: [jipp example][], the library just wrapper sample code.
 
 ## To use the code
 
-1. copy code of use [jitpack.io][jitpack]
+1. copy code of use maven/gradle
 2. import
-```kts
-repositories {
-    maven {
-        url = uri("https://jitpack.io")
-    }
-}
-
+```groovy
 dependencies {
-    implementation("com.github.CaiJingLong:PdfToPrinter:1.0.0")
+    implementation("top.kikt:PdfToPrinter:1.0.0")
 }
 ```
 3. use code in kotlin
